@@ -1,5 +1,4 @@
 # ComfyUI-layerdiffuse
-ComfyUI implementation of https://github.com/layerdiffusion/LayerDiffuse.
 
 ## Installation
 Download the repository and unpack it into the custom_nodes folder in the ComfyUI installation directory.
@@ -7,7 +6,7 @@ Download the repository and unpack it into the custom_nodes folder in the ComfyU
 Or clone via GIT, starting from ComfyUI installation directory:
 ```bash
 cd custom_nodes
-git clone git@github.com:huchenlei/ComfyUI-layerdiffuse.git
+git clone git@github.com:hotdev-icebreaker/Layerdiff-ComfyUI.git
 ```
 
 Run `pip install -r requirements.txt` to install python dependencies. You might experience version conflict on diffusers if you have other extensions that depend on other versions of diffusers. In this case, it is recommended to set up separate Python venvs.
