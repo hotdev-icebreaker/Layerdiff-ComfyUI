@@ -13,8 +13,8 @@ git clone git@github.com:huchenlei/ComfyUI-layerdiffuse.git
 Run `pip install -r requirements.txt` to install python dependencies. You might experience version conflict on diffusers if you have other extensions that depend on other versions of diffusers. In this case, it is recommended to set up separate Python venvs.
 
 ## Workflows
-### [Generate foreground](https://github.com/huchenlei/ComfyUI-layerdiffuse/blob/main/example_workflows/layer_diffusion_fg_example_rgba.json)
-![rgba](https://github.com/huchenlei/ComfyUI-layerdiffuse/assets/20929282/5e6085e5-d997-4a0a-b589-257d65eb1eb2)
+### [Generate foreground](https://github.com/hotdev-icebreaker/Layerdiff-ComfyUI)
+![rgba](https://github.com/hotdev-icebreaker/Layerdiff-ComfyUI/assets/20929282/5e6085e5-d997-4a0a-b589-257d65eb1eb2)
 
 ### [Generate foreground (RGB + alpha)](https://github.com/huchenlei/ComfyUI-layerdiffuse/blob/main/example_workflows/layer_diffusion_fg_example.json)
 If you want more control of getting RGB images and alpha channel mask separately, you can use this workflow.
@@ -61,5 +61,5 @@ Need batch size = 3N. Currently only for SD15.
 ![sd15_joint](https://github.com/huchenlei/ComfyUI-layerdiffuse/assets/20929282/e5545809-e3fb-4683-acf5-8728195cb2bc)
 
 ## Note
-- Currently only SDXL/SD15 are supported. See https://github.com/layerdiffuse/sd-forge-layerdiffuse#model-notes for more details.
+- Currently only SDXL/SD15 are supported.
 - To decode RGBA result, the generation dimension must be multiple of 64. Otherwise, you will get decode error: ![image](https://github.com/huchenlei/ComfyUI-layerdiffuse/assets/20929282/ff055f99-9297-4ff1-9a33-065aaadcf98e)
